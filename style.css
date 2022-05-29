@@ -1,0 +1,28 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.logo img {
+    max-width: 80px;
+}
+
+.nav {
+    display: flex;
+    gap: 8px;
+    margin-right: 16px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #E5E7EB
+}
