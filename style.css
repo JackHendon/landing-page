@@ -150,3 +150,41 @@ body {
     color: grey;
     font-style: italic;
 }
+
+.cta-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 96px 0;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+    background-color: #3882F6;
+    padding: 48px 182px;
+    border-radius: 12px;
+}
+
+.cta-title {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cta-description {
+    color: white;
+    font-weight: 200;
+}
+
+.cta-button button {
+    background: none;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 6px 24px;
+}
